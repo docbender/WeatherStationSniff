@@ -19,6 +19,6 @@ Used pulse modulation gives three types of information: start bit, logic "1" and
 ##Protocol
 Each packet consist of one start bit and 28 data bits. Data bits in packet are represented as follows:
 
-    data bits    | 0| 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24| 25| 26|27|28|
-    description  | checksum  | ??? - maybe sensor ID |   temperature (int = 10*real value)  |channel| ?| ?|
+    data bits    | 0| 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18|19|20|21|22|23| 24| 25|26|27|
+    description  | checksum  | ??? - maybe sensor ID | temperature (int = 10*real value) |channel| ?| ?|
     example      |
