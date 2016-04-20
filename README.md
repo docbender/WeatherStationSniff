@@ -7,14 +7,14 @@ Sensor communicates with station at radio frequency 433MHz. Data are tramsmited 
 To obtain data some amplitude (ASK) demodulator is needed. I used ET-RXB-12 433MHz heterodyne receiver. This receiver receives a lot of noise from the environment so filter out this noise (search for expected packet) is necessary.
 
 ##Modulation
-Used pulse modulation gives three types of information: start bit, logic "1" and logic "0". Each of this bit start with pulse (duration around 500ms) followed by space. Duration of this space determines bit type. Bits flow are draw below. The values are average from my measure.
+Used pulse modulation gives three types of information: start bit, logic "1" and logic "0". Each of this bit start with pulse (duration around 500 microseconds) followed by space. Duration of this space determines bit type. Bits flow are draw below. The values are average from my measure.
 
-                  _________         9500ms        __
-    start bit   _|  500ms  |_____________________|
-                  _________      4500ms     __
-    logic "1"   _|  500ms  |_______________|
-                  _________     1500ms    __
-    logic "0"   _|  500ms  |_____________|   
+                  _________         9500us        __
+    start bit   _|  500us  |_____________________|
+                  _________      4500us     __
+    logic "1"   _|  500us  |_______________|
+                  _________     1500us    __
+    logic "0"   _|  500us  |_____________|   
 
 ##Protocol
 Each packet consist of one start bit and 28 data bits. Data bits in packet are represented as follows:
