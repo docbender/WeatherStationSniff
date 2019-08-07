@@ -32,7 +32,7 @@ Checksum value is calculated as sum of rest fours of bits plus binary 1111. Only
 
 # Hyundai WS1070 temperature sensor receiver
 
-Same as previous. Carrier frequency is 433MHz. OOK (OnOff Keying) modulation with 500us bit lenght is used. Several data packets are sent without any gap between them.
+Same as previous. Carrier frequency is 433MHz. OOK (OnOff Keying) modulation with 500us bit length is used. Several data packets are sent without any gap between them.
 
 ## Coding
 Data is encoded using a variable pulse width of "0". No start bit is presented this time.
