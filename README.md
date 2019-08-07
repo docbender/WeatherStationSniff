@@ -23,8 +23,11 @@ Each packet consist of one start bit and 28 data bits. Data bits in packet are r
     example-14.3° | 1| 1| 1| 1| 0| 0| 1| 1| 1| 0| 0| 0| 0| 0| 0| 0| 1| 0| 0| 0| 1| 1| 1| 1|  1|  1| 1| 0|    
 
 Temperature is represent as 12 bit integer value. This value need to be divide by 10 to get real temperature value.
+
 Channel number is represent by 2 bit value (channel 0-3).
+
 Checksum value is calculated as sum of rest fours of bits plus binary 1111. Only last four bits of sum is needed.
+
 
 
 # Hyundai WS1070 temperature sensor receiver
@@ -46,4 +49,5 @@ Each packet consist 38 data bits. Data bits in packet are represented as follows
     example-24.6° | 0| 0| 0| 1| 0| 1| 1| 1| 1| 0|  1|  0| 0| 0| 0| 0| 1| 1| 1| 1| 0| 1| 1| 0| 1| 1| 1| 1| 0| 1| 0| 0| 0| 1| 0| 0| 0| 1|
     example-24.9° | 0| 0| 0| 1| 0| 1| 1| 1| 1| 0|  1|  0| 0| 0| 0| 0| 1| 1| 1| 1| 1| 0| 0| 1| 1| 1| 1| 1| 0| 0| 1| 0| 1| 0| 0| 1| 0| 1|    
 Temperature is represent as 12 bit integer value. This value need to be divide by 10 to get real temperature value.
+
 Channel number is represent by 2 bit value (channel 0-3).
