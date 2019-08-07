@@ -36,6 +36,7 @@ Same as previous. Carrier frequency is 433MHz. OOK (OnOff Keying) modulation wit
 
 ## Coding
 Data is encoded using a variable pulse width of "0". No start bit is presented this time.
+
                   _________       2000us      __
     logic "1"   _|  500us  |_________________|
                   _________     1000us    __
